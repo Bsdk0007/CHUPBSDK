@@ -72,7 +72,7 @@ async def init():
         # Start streaming a media file
         await SHUKLA.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("SHUKLAMUSIC").error("𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗦𝗛𝗨𝗞𝗟𝗔𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........")
+        LOGGER("SHUKLAMUSIC").error("𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗥𝗔𝗗𝗛𝗘𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........")
         exit()
     except:
         pass
@@ -80,13 +80,13 @@ async def init():
     await SHUKLA.decorators()
 
     LOGGER("SHUKLAMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗦𝗛𝗔𝗦𝗛𝗔𝗡𝗞\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗥𝗔𝗗𝗛𝗘\n╚═════ஜ۩۞۩ஜ════╝"
     )
 
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SHUKLAMUSIC").info("𝗦𝗧𝗢𝗣 𝗦𝗛𝗨𝗞𝗟𝗔 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("SHUKLAMUSIC").info("𝗦𝗧𝗢𝗣 𝗥𝗔𝗗𝗛𝗘 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 if __name__ == "__main__":
     # Start Flask and keep-alive in separate threads
